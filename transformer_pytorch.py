@@ -16,7 +16,7 @@ https://github.com/jadore801120/attention-is-all-you-need-pytorch/tree/master/tr
 """
 
 # BLEU Score 계산 라이브러리
-!pip install torchtext==0.6.0
+pip install torchtext==0.6.0
 
 """### Data Preprocessing 
 - spacy library : tokenization, tagging   
@@ -28,8 +28,8 @@ https://github.com/jadore801120/attention-is-all-you-need-pytorch/tree/master/tr
 # #https://ipython.readthedocs.io/en/stable/interactive/magics.html#cellmagic-capture
 # # 밑에 나오는 내용 억제 
 # %%capture   
-# !python -m spacy download en
-# !python -m spacy download de
+# python -m spacy download en
+# python -m spacy download de
 
 import spacy
 
@@ -693,7 +693,7 @@ from google.colab import files
 
 files.download('transformer_german_to_english.pt')
 
-!wget https://postechackr-my.sharepoint.com/:u:/g/personal/dongbinna_postech_ac_kr/EbWFiKBmscFBrbzCQxRyqwsBwcXgdKdimkdsBl2dE9VYaQ?download=1 -O transformer_german_to_english.pt
+wget https://postechackr-my.sharepoint.com/:u:/g/personal/dongbinna_postech_ac_kr/EbWFiKBmscFBrbzCQxRyqwsBwcXgdKdimkdsBl2dE9VYaQ?download=1 -O transformer_german_to_english.pt
 
 """- Loss
 - Perplexity(PPL) 
